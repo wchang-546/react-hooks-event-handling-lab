@@ -1,8 +1,15 @@
 // Code Keypad Component Here
 
+
 function Keypad (){
+    const passwordSubmit = () => {
+        console.log('Entering password...')
+    }
+
     return (
-        <div></div>
+        <form onChange={passwordSubmit}> 
+            <input type="password" /> 
+        </form>
     )
 }
 
